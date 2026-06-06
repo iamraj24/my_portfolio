@@ -1630,6 +1630,14 @@ section,
   margin-bottom: 8px;
 }
 
+.portfolio .portfolio-wrap .portfolio-info .project-stack {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: var(--contrast-color);
@@ -2137,6 +2145,14 @@ section,
   color: var(--contrast-color);
 }
 
+.contact .info-item .icon-box.whatsapp-icon {
+  background-color: #25D366;
+}
+
+.contact .info-item .icon-box.whatsapp-icon i {
+  color: #ffffff;
+}
+
 .contact .info-item:hover .icon-box {
   background-color: color-mix(in srgb, var(--contrast-color), transparent 70%);
 }
@@ -2155,6 +2171,19 @@ section,
 
 .contact .info-item .content p:last-child {
   margin-bottom: 0;
+}
+
+.contact .info-item .content a {
+  display: inline-block;
+  color: var(--contrast-color);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact .info-item .content a:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .contact .contact-form {
