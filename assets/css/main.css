@@ -1271,6 +1271,13 @@ section,
   margin-bottom: 8px;
 }
 
+.skills .skill-item h4 .skill-icon {
+  margin-right: 0.5rem;
+  color: var(--accent-color);
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+
 .skills .skill-item .skill-percentage {
   font-size: 14px;
   color: color-mix(in srgb, var(--heading-color), transparent 30%);
